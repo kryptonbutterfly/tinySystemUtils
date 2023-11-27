@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <project default="create_jar" name="Package System into a jarfile">
 	<target name="create_jar">
-		<jar destfile="build/System.jar">
+		<jar destfile="build/System2.0.0.jar">
 			<manifest>
 				<attribute name="Created-By" value="tinycodecrank"/>
 				<attribute name="Class-Path" value="."/>
