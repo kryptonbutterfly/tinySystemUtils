@@ -1,11 +1,11 @@
-package de.tinycodecrank.os;
+package kryptonbutterfly.os;
 
 import java.io.File;
 import java.util.Objects;
 
-import de.tinycodecrank.FileUtils;
-import de.tinycodecrank.baseDir.KnownFolder;
-import de.tinycodecrank.baseDir.XdgBaseDir;
+import kryptonbutterfly.FileUtils;
+import kryptonbutterfly.baseDir.KnownFolder;
+import kryptonbutterfly.baseDir.XdgBaseDir;
 
 public sealed abstract class BaseDirectory permits XdgBaseDir, KnownFolder
 {

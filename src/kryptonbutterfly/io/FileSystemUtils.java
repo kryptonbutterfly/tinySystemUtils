@@ -1,4 +1,4 @@
-package de.tinycodecrank.io;
+package kryptonbutterfly.io;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -9,10 +9,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Predicate;
 
-import de.tinycodecrank.collections.Stack;
-import de.tinycodecrank.concurrent.ThreadLocalExecutorService;
-import de.tinycodecrank.functions.bool_.BooleanBinaryOperator;
-import de.tinycodecrank.monads.opt.Opt;
+import kryptonbutterfly.collections.Stack;
+import kryptonbutterfly.concurrent.ThreadLocalExecutorService;
+import kryptonbutterfly.functions.bool_.BooleanBinaryOperator;
+import kryptonbutterfly.monads.opt.Opt;
 
 public class FileSystemUtils
 {

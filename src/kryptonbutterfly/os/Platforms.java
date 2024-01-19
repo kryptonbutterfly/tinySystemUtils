@@ -1,13 +1,13 @@
-package de.tinycodecrank.os;
+package kryptonbutterfly.os;
 
 import static java.io.File.*;
 
 import java.io.File;
 import java.util.Locale;
 
-import de.tinycodecrank.baseDir.KnownFolder;
-import de.tinycodecrank.baseDir.XdgBaseDir;
-import de.tinycodecrank.os.BaseDirectory.BaseDirFactory;
+import kryptonbutterfly.baseDir.KnownFolder;
+import kryptonbutterfly.baseDir.XdgBaseDir;
+import kryptonbutterfly.os.BaseDirectory.BaseDirFactory;
 
 public final class Platforms
 {

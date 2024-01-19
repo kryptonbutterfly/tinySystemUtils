@@ -1,4 +1,4 @@
-package de.tinycodecrank;
+package kryptonbutterfly;
 
 import java.io.File;
 

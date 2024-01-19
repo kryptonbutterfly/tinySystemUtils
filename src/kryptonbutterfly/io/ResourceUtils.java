@@ -1,4 +1,4 @@
-package de.tinycodecrank.io;
+package kryptonbutterfly.io;
 
 import java.util.Scanner;
 

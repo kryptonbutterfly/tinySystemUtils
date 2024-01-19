@@ -1,13 +1,13 @@
-module de.tinycodecrank.System
+module kryptonbutterfly.System
 {
-	exports de.tinycodecrank.autostart;
-	exports de.tinycodecrank.os;
-	exports de.tinycodecrank.io;
-	exports de.tinycodecrank.shortcut;
-	exports de.tinycodecrank;
+	exports kryptonbutterfly.autostart;
+	exports kryptonbutterfly.os;
+	exports kryptonbutterfly.io;
+	exports kryptonbutterfly.shortcut;
+	exports kryptonbutterfly;
 	
-	requires de.tinycodecrank.Collections;
-	requires de.tinycodecrank.Concurrent;
-	requires transitive de.tinycodecrank.Functional;
-	requires de.tinycodecrank.Monads;
+	requires transitive kryptonbutterfly.Functional;
+	requires kryptonbutterfly.Collections;
+	requires kryptonbutterfly.Concurrent;
+	requires kryptonbutterfly.Monads;
 }

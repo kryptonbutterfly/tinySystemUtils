@@ -1,9 +1,9 @@
-package de.tinycodecrank.autostart;
+package kryptonbutterfly.autostart;
 
 import java.io.File;
 import java.io.IOException;
 
-import de.tinycodecrank.monads.opt.Opt;
+import kryptonbutterfly.monads.opt.Opt;
 
 public abstract class AutoStart
 {

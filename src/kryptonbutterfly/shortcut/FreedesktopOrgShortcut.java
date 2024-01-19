@@ -1,4 +1,4 @@
-package de.tinycodecrank.shortcut;
+package kryptonbutterfly.shortcut;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
 
-import de.tinycodecrank.monads.opt.Opt;
+import kryptonbutterfly.monads.opt.Opt;
 
 import java.util.Objects;
 

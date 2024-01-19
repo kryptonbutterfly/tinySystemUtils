@@ -1,14 +1,14 @@
-package de.tinycodecrank.autostart;
+package kryptonbutterfly.autostart;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-import de.tinycodecrank.monads.opt.Opt;
-import de.tinycodecrank.os.Platforms;
-import de.tinycodecrank.shortcut.FreedesktopOrgShortcut;
-import de.tinycodecrank.shortcut.FreedesktopOrgShortcut.LocalizableArgument;
+import kryptonbutterfly.monads.opt.Opt;
+import kryptonbutterfly.os.Platforms;
+import kryptonbutterfly.shortcut.FreedesktopOrgShortcut;
+import kryptonbutterfly.shortcut.FreedesktopOrgShortcut.LocalizableArgument;
 
 public final class AutoStartGnome extends AutoStart
 {

@@ -1,10 +1,10 @@
-package de.tinycodecrank.baseDir;
+package kryptonbutterfly.baseDir;
 
 import java.io.File;
 
-import de.tinycodecrank.FileUtils;
-import de.tinycodecrank.monads.opt.Opt;
-import de.tinycodecrank.os.BaseDirectory;
+import kryptonbutterfly.FileUtils;
+import kryptonbutterfly.monads.opt.Opt;
+import kryptonbutterfly.os.BaseDirectory;
 
 /**
  * @see <a href=

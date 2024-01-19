@@ -1,4 +1,4 @@
-package de.tinycodecrank.shortcut;
+package kryptonbutterfly.shortcut;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.lang.ProcessBuilder.Redirect;
 import java.util.function.Consumer;
 
-import de.tinycodecrank.monads.opt.Opt;
+import kryptonbutterfly.monads.opt.Opt;
 
 public class WindowsShortcut
 {

@@ -1,4 +1,4 @@
-# tinySystemUtils [![Maven Package](https://github.com/tinycodecrank/tinySystemUtils/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/tinycodecrank/tinySystemUtils/actions/workflows/maven-publish.yml)
+# tinySystemUtils [![Maven Package](https://github.com/kryptonbutterfly/tinySystemUtils/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/kryptonbutterfly/tinySystemUtils/actions/workflows/maven-publish.yml)
 
 Utility                | Description
 :--------------------- | :----------
@@ -14,7 +14,7 @@ WindowsShortcut        | A utility to generate .lnk files.
 ```xml
 <repository>
   <id>github</id>
-  <url>https://maven.pkg.github.com/tinycodecrank/maven-repo</url>
+  <url>https://maven.pkg.github.com/kryptonbutterfly/maven-repo</url>
 </repository>
 ```
 
@@ -30,5 +30,5 @@ WindowsShortcut        | A utility to generate .lnk files.
 
 java version | library version | Download
 :----------: | :-------------: | :-------
-18+          | 1.0.0           | [**tinySystemUtils.jar**](https://github.com/tinycodecrank/tinySystemUtils/releases/download/1.0.0/tinySystemUtils.jar)
+18+          | 1.0.0           | [**tinySystemUtils.jar**](https://github.com/kryptonbutterfly/tinySystemUtils/releases/download/1.0.0/tinySystemUtils.jar)
 

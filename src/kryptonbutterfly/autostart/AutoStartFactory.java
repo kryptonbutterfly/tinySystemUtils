@@ -1,10 +1,10 @@
-package de.tinycodecrank.autostart;
+package kryptonbutterfly.autostart;
 
 import java.io.File;
 
-import de.tinycodecrank.io.FileSystemUtils;
-import de.tinycodecrank.monads.opt.Opt;
-import de.tinycodecrank.os.Platforms;
+import kryptonbutterfly.io.FileSystemUtils;
+import kryptonbutterfly.monads.opt.Opt;
+import kryptonbutterfly.os.Platforms;
 
 public class AutoStartFactory
 {
