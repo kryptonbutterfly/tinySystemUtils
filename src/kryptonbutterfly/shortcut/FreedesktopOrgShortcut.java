@@ -7,10 +7,9 @@ import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
+import java.util.Objects;
 
 import kryptonbutterfly.monads.opt.Opt;
-
-import java.util.Objects;
 
 public final class FreedesktopOrgShortcut
 {
@@ -30,6 +29,90 @@ public final class FreedesktopOrgShortcut
 	public Opt<String>				keywords				= Opt.empty();
 	public Opt<String>				categories				= Opt.empty();
 	public Opt<String>				xGnomeAutoStartEnabled	= Opt.empty();
+	
+	public FreedesktopOrgShortcut shebang(String shebang)
+	{
+		this.shebang = Opt.of(shebang);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut version(String version)
+	{
+		this.version = Opt.of(version);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut type(String type)
+	{
+		this.type = Opt.of(type);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut terminal(String terminal)
+	{
+		this.terminal = Opt.of(terminal);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut exec(String exec)
+	{
+		this.exec = Opt.of(exec);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut icon(String icon)
+	{
+		this.icon = Opt.of(icon);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut hidden(String hidden)
+	{
+		this.hidden = Opt.of(hidden);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut noDisplay(String noDisplay)
+	{
+		this.noDisplay = Opt.of(noDisplay);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut name(LocalizableArgument name)
+	{
+		this.name = Opt.of(name);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut genericName(LocalizableArgument genericName)
+	{
+		this.genericName = Opt.of(genericName);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut comment(LocalizableArgument comment)
+	{
+		this.comment = Opt.of(comment);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut keywords(String keywords)
+	{
+		this.keywords = Opt.of(keywords);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut categories(String categories)
+	{
+		this.categories = Opt.of(categories);
+		return this;
+	}
+	
+	public FreedesktopOrgShortcut xGnomeAutoStartEnabled(String xGnomeAutoStartEnabled)
+	{
+		this.xGnomeAutoStartEnabled = Opt.of(xGnomeAutoStartEnabled);
+		return this;
+	}
 	
 	public FreedesktopOrgShortcut(File shortcutFile)
 	{
@@ -63,8 +146,7 @@ public final class FreedesktopOrgShortcut
 	
 	private void write(OutputStreamWriter writer, Opt<String> arg) throws IOException
 	{
-		arg.if_Throws(argument ->
-		{
+		arg.if_Throws(argument -> {
 			writer.write(argument);
 			writer.write("\n");
 		});
@@ -72,8 +154,7 @@ public final class FreedesktopOrgShortcut
 	
 	private void write(OutputStreamWriter writer, String argName, Opt<String> arg) throws IOException
 	{
-		arg.if_Throws(argument ->
-		{
+		arg.if_Throws(argument -> {
 			writer.write(argName);
 			writer.write("=");
 			writer.write(argument);
