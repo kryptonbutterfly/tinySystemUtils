@@ -11,6 +11,8 @@ WindowsShortcut        | A utility to generate .lnk files.
 
 ## Getting the latest release
 
+<a href="https://github.com/kryptonbutterfly/maven-repo/packages/2044864">Maven Package</a>
+
 ```xml
 <repository>
   <id>github</id>
@@ -22,7 +24,7 @@ WindowsShortcut        | A utility to generate .lnk files.
 <dependency>
   <groupId>kryptonbutterfly</groupId>
   <artifactId>tiny_system_utils</artifactId>
-  <version>2.0.0</version>
+  <version>2.1.0</version>
 </dependency>
 ```
 
@@ -30,6 +32,6 @@ WindowsShortcut        | A utility to generate .lnk files.
 
 java version | library version | Download
 :----------: | :-------------: | :-------
+18+          | 2.1.0           | [**tiny_system_utils-2.1.0.jar**](https://github.com/kryptonbutterfly/tinySystemUtils/releases/download/v2.1.0/tiny_system_utils-2.1.0.jar)
 18+          | 2.0.0           | [**tiny_system_utils-2.0.0.jar**](https://github-registry-files.githubusercontent.com/731108692/6b699680-b668-11ee-9f32-74252eb864bc?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240119T001712Z&X-Amz-Expires=300&X-Amz-Signature=1cfe2fab6cf6e85df8ac424ad18331919c551ff25a290708e40a213ab095ff05&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=731108692&response-content-disposition=filename%3Dtiny_system_utils-2.0.0.jar&response-content-type=application%2Foctet-stream)
 18+          | 1.0.0           | [**tinySystemUtils.jar**](https://github.com/kryptonbutterfly/tinySystemUtils/releases/download/1.0.0/tinySystemUtils.jar)
-
